@@ -67,3 +67,12 @@ For relu activation
 
 # Batch Normalization
 
+Batch normalization before we pass the activation function. 
+
+For a given layer we have the outputs of each neuron. We calculate the mean and standard deviation or variance for a particular mini-batch. Normalize the outputs, scale and shift them. These are actually parameters which we're going to learn via training. These outputs will pass through the activation function.
+
+Create BatchNorm object.
+
+Train Loss converges a lot faster.
+
+Why it works? 
